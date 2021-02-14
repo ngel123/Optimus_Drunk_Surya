@@ -9,7 +9,5 @@ steps:
     environment: 
       TELEGRAM_TOKEN: 
         from_secret: BOT_API_KEY
-         CHAT_ID:
-        from_secret: CHAT_ID
     image: fadlyas/kernel_dockerfile:latest
     name: Zh
